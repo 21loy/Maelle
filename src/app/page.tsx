@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Home(){return <main className="shell"><section className="glass"><p className="eyebrow">Private Experiences</p><h1 className="brand">Maelle</h1><p className="muted">Un espace confidentiel, pensé autour de l’élégance, de la discrétion et d’expériences personnalisées.</p><div style={{marginTop:30}}><Link className="btn" href="/login">Accéder à mon espace privé</Link></div><p className="foot">ACCÈS SUR AUTHENTIFICATION · CONFIDENTIALITÉ</p></section></main>}
